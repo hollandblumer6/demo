@@ -144,18 +144,18 @@ body {
 
     @font-face {
         font-family: "hippie-mojo";
-        src: url("../fonts/hippie-mojo/hippie-mojo.woff2") format("woff2"),
+        src: url("./fonts/hippie-mojo/hippie-mojo.woff") format("woff2"),
           /* Super Modern Browsers */
-            url("../fonts/hippie-mojo/hippie-mojo.woff") format("woff");
+            url("./fonts/hippie-mojo/hippie-mojo.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
       
       @font-face {
         font-family: "itc-souvenir";
-        src: url("../fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
+        src: url("./fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
           /* Super Modern Browsers */
-            url("../fonts/itc-souvenir/itc-souvenir.woff") format("woff");
+            url("./fonts/itc-souvenir/itc-souvenir.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
