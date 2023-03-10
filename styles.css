@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+
+
+    width: 100vw;
+    height: 100vh;
+    background: #F4F2EA;
+
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+#background-video {
+    
+  width: 50%;
+  height: 100%;
+   
+}
+
+ 
+.divot-heading {
+    width: 60rem;
+    height: 50rem;
+    text-align: center;
+    }
+
+    .logo {
+
+        margin-top: 260px;
+        margin-top: 220px;
+        font-family: 'Hippie Mojo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 300px;
+        line-height: 334px;
+        text-align: center;
+        color: #A97A50;
+    }
+
+    .slogan {
+        margin-top: 62px;
+        font-family: 'ITC Souvenir Std';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 41px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #A97A50;
+        
+    }
+
+    .sign-up {
+     
+        margin-top:70px;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 41px;
+        text-align: center;
+        
+        color: #B7B1A7;
+    }
