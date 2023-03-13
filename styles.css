@@ -147,9 +147,9 @@ body {
 
     @font-face {
         font-family: "hippie-mojo";
-        src: url("../../demo/fonts/hippie-mojo/hippie-mojo.woff") format("woff2"),
+        src: url("/hippie-mojo.woff") format("woff2"),
           /* Super Modern Browsers */
-            url("../../demo/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
+            url("/hippie-mojo.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
