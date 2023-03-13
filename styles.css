@@ -147,9 +147,9 @@ body {
 
     @font-face {
         font-family: "hippie-mojo";
-        src: url("/fonts/hippie-mojo/hippie-mojo.woff2") format("woff2"),
+        src: url("../../../demo/fonts/hippie-mojo/hippie-mojo.woff2") format("woff2"),
           /* Super Modern Browsers */
-            url("/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
+            url("../../../demo/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
@@ -157,9 +157,9 @@ body {
       
       @font-face {
         font-family: "itc-souvenir";
-        src: url("/fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
+        src: url("../../../demo/fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
           /* Super Modern Browsers */
-            url("/fonts/itc-souvenir/itc-souvenir.woff") format("woff");
+            url("../../../demo/fonts/itc-souvenir/itc-souvenir.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
