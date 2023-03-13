@@ -91,7 +91,9 @@ body {
         flex-flow: column; 
         align-items: center;
         justify-content: center;
+    
         text-align: center;
+   
      
         }
     
@@ -122,7 +124,7 @@ body {
             
         }
     
-   a {
+  .sign-up {
 
             text-decoration: none;
             font-family: 'Helvetica Neue';
@@ -130,7 +132,8 @@ body {
             font-weight: 300;
             font-size: 34px;
             color: #B7B1A7;
-            margin-top: 2rem;
+            text-align: center;
+            margin-top: 4rem;
         }
   }
 
@@ -144,9 +147,9 @@ body {
 
     @font-face {
         font-family: "hippie-mojo";
-        src: url("/demo/fonts/hippie-mojo/hippie-mojo.woff") format("woff2"),
+        src: url("/fonts/hippie-mojo/hippie-mojo.woff") format("woff2"),
           /* Super Modern Browsers */
-            url("/demo/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
+            url("/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
@@ -154,9 +157,9 @@ body {
       
       @font-face {
         font-family: "itc-souvenir";
-        src: url("/demo/fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
+        src: url("/fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
           /* Super Modern Browsers */
-            url("/demo/fonts/itc-souvenir/itc-souvenir.woff") format("woff");
+            url("/fonts/itc-souvenir/itc-souvenir.woff") format("woff");
         font-weight: 400;
         font-style: normal;
       }
