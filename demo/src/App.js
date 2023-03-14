@@ -36,12 +36,8 @@ function App() {
         { showForm? (<div><Form /></div>): (<div>  
         <button class="sign-up"     onClick={() => {
           setShowForm(true);
-        }}>    Beta Form
-         <FontAwesomeIcon
-              icon={faArrowRight}
-              size="sm"
-              color="#272626"
-            />
+        }}>    Sign up for beta here
+        
         </button>
         </div>)}
       
