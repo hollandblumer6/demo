@@ -4,7 +4,7 @@ import Movie from "./assets/videos/promo.mp4";
 import './App.css';
 import Form from './components/Form'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPause, faPlay } from "@fortawesome/free-solid-svg-icons";
+import { faPause, faPlay, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
 
@@ -34,10 +34,16 @@ function App() {
       <div class="logo"> Divot </div>
         <div class="slogan"> Sustainability, Simplified</div>
         { showForm? (<div><Form /></div>): (<div>  
-        <div class="sign-up"     onClick={() => {
+        <button class="sign-up"     onClick={() => {
           setShowForm(true);
-        }}>    sign up for beta here
-        </div></div>)}
+        }}>    Beta Form
+         <FontAwesomeIcon
+              icon={faArrowRight}
+              size="sm"
+              color="#272626"
+            />
+        </button>
+        </div>)}
       
       </div>
 
