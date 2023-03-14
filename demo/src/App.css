@@ -7,6 +7,7 @@
 
 @font-face {
   font-family: "hippie-mojo";
+  src: url("./assets/fonts/hippie-mojo/HippieMojo.otf"); 
   src: url("./assets/fonts/hippie-mojo/hippie-mojo.woff2") format("woff2"),
     /* Super Modern Browsers */
       url("./assets/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
