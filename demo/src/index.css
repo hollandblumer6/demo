@@ -1,0 +1,338 @@
+ body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F4F2EA;
+  width: 100%; 
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media only screen and (max-width: 600px) {
+ .App {
+  display: flex;
+  flex-direction: column;
+ }
+    .left {
+      background: #F4F2EA;
+      width: 100%;
+    }
+    
+    .right {
+      background: #BEB7AC;
+
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+    }
+   
+
+    .divot-heading {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: column; 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+    
+        .logo {
+            margin-top: 260px;
+            margin-top: 50px;
+            font-family: 'Hippie Mojo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 200px;
+            text-align: center;
+            color: #A97A50;
+        }
+    
+        .slogan {
+          font-family: 'ITC Souvenir Std';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          margin-bottom: 4rem;
+          color:#A7784f;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+            
+        }
+    
+    a {
+            text-decoration: none;
+            font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 41px;
+            text-align: center;
+            color: #B7B1A7;
+            margin-top: 3rem;
+        }
+
+        #background-video {
+          height: 100%; 
+          margin-top: 4rem;
+          z-index: -1;
+         
+        }
+    
+ 
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .App {
+    display: flex;
+    flex-direction: row wrap;
+   }
+ 
+  .left {
+    background: #F4F2EA;
+    width: 50%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-right: 1px solid #e9e5dc;
+  }
+  
+  .right {
+    background: #BEB7AC;
+
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+
+  }
+
+ 
+  
+  
+  #background-video {
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+  }
+  
+        .logo {
+            /* margin-top: 200px; */
+            font-size: 250px;
+            color: #A97A50;
+       
+            font-family: 'hippie-mojo';
+    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .slogan {
+          font-family: 'ITC Souvenir Std';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          margin-bottom: 4rem;
+          color:#A7784f;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+        }
+    
+    .sign-up {
+            text-decoration: none;
+            font-family: 'Helvetica Neue';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            color: #B7B1A7;
+            margin-top: 3rem;
+            margin-left: -2rem;
+        }
+
+       
+
+       
+  }
+
+  .pause-btn {
+    color: rgba(242, 242, 242, 0.7);
+    color: black;
+
+
+   
+  }
+
+  .btn-cover {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    background: #434040;
+    background: #817d7d;
+    opacity: 30%;
+    z-index: 900;
+  }
+
+  .pause {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    z-index: 900;
+    opacity: 4%;
+    background: #e9e6e6;
+  }
+
+ button {
+  border: none;
+
+ }
+
+
+  .right-header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    /* height: 22vh; this works*/
+    height: 22vh;
+    margin: 3vh;
+    text-align: center;
+  }
+
+
+
+  .pause-btn {
+    color: rgba(242, 242, 242, 0.7);
+  }
+
+
+    @font-face {
+        font-family: "hippie-mojo";
+        src: url("../../../demo/fonts/hippie-mojo/hippie-mojo.woff2") format("woff2"),
+          /* Super Modern Browsers */
+            url("../../../demo/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      
+      @font-face {
+        font-family: "itc-souvenir";
+        src: url("../../../demo/fonts/itc-souvenir/itc-souvenir.woff2") format("woff2"),
+          /* Super Modern Browsers */
+            url("../../../demo/fonts/itc-souvenir/itc-souvenir.woff") format("woff");
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+  
+
+      .suggestion-input {
+        background: #fafafa;
+        border: hidden;
+        text-decoration: none;
+        height: 2.2rem;
+        outline: none;
+        background: none;
+        border-radius: 0 9px 9px 0;
+        padding-left: 0.8rem;
+        width: 23rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      
+      input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+
+
+
+     
+    .suggestion-form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #f8f7f4;
+      border: none;
+      padding: 2px 4px;
+      border-radius: 20px;
+      margin-top: .6rem;
+      margin-top: 3rem;
+      background: #e9e5dc; 
+    }
+
+    .suggestion-form-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+
+    .submit {
+      border: none;
+      background: #e9e5dc;
+      color:#272626;
+      font-size: medium;
+      padding: .6rem 1rem;
+      border-radius: 3rem;
+      align-self: flex-end;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+
+    input {
+      width: 250px;
+      padding: 5px;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+
+  *:focus {
+    outline: none;
+}
+
+.create-suggestion-button {
+  border: none;
+  background: none;
+  color: white;
+  color: #5c5848;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  background: #d0c5b4;
+  background: rgb(162, 122, 85);
+  background: #c4bca6;
+  background: none;
+}
