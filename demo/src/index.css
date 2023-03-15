@@ -22,13 +22,18 @@ code {
   flex-direction: column;
  }
     .left {
+    
       background: #F4F2EA;
       width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     
     .right {
       background: #BEB7AC;
-
       width: 100%;
       display: flex;
       flex-direction: row;
@@ -37,59 +42,110 @@ code {
     }
    
 
-    .divot-heading {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-flow: column; 
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        }
+   
     
+        
         .logo {
-            margin-top: 260px;
-            margin-top: 50px;
-            font-family: 'Hippie Mojo';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 200px;
-            text-align: center;
-            color: #A97A50;
-        }
-    
-        .slogan {
-          font-family: 'ITC Souvenir Std';
-          font-style: normal;
-          font-weight: 500;
-          font-size: 30px;
-          margin-bottom: 4rem;
-          color:#A7784f;
+          /* margin-top: 200px; */
+          font-size: 200px;
+          color: #A97A50;
+     
+          font-family: 'hippie-mojo';
+  
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: center;
-            
-        }
+      }
     
-    a {
-            text-decoration: none;
-            font-family: 'Helvetica Neue';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 30px;
-            line-height: 41px;
-            text-align: center;
-            color: #B7B1A7;
-            margin-top: 3rem;
-        }
+      .slogan {
+        font-family: 'ITC Souvenir Std';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 4rem;
+        color:#A7784f;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+ 
 
         #background-video {
           height: 100%; 
-          margin-top: 4rem;
-          z-index: -1;
+          width: 100%;
+          position: absolute;
+          object-fit: cover;
          
         }
+
+        .sign-up {
+
+          display: flex;
+          border: 1px solid #f8f7f4;
+          border: none;
+          padding: 2px 4px;
+          border-radius: 20px;
+          margin-top: .6rem;
+          margin-top: 2.5rem;
+          /* background: #e9e5dc;  */
+          height: 2.7rem;
+          width: 15rem;
+          color: #B7B1A7;
+       
+          font-family: 'Helvetica Neue';
+          font-size: 19px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          /* background: #e9e5dc; */
+          background: none;
+          padding: 0px 14px;
+      }
+
+      .sign-up:hover {
+        background: none; 
+        color: grey;
+
+    }
+
+    .suggestion-input {
+      background: #fafafa;
+      border: hidden;
+      text-decoration: none;
+      height: 2.2rem;
+      outline: none;
+      background: none;
+      border-radius: 0 9px 9px 0;
+      padding-left: 0.8rem;
+      width: 20rem;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+     
+
+    .suggestion-form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #f8f7f4;
+      border: none;
+      padding: 2px 4px;
+      border-radius: 20px;
+      margin-top: .6rem;
+      margin-top: 3rem;
+      background: #e9e5dc; 
+    }
+
+    .suggestion-form-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    
     
  
 }
@@ -108,10 +164,10 @@ code {
     background: #F4F2EA;
     width: 50%;
     height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
    
   }
   
@@ -161,14 +217,6 @@ code {
   
 
           .sign-up {
-            /* text-decoration: none;
-            font-family: 'Helvetica Neue';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 30px;
-            color: #B7B1A7;
-            margin-top: 3rem;
-            margin-left: -2rem; */
 
             display: flex;
             border: 1px solid #f8f7f4;
@@ -199,8 +247,41 @@ code {
 
       }
 
-
+      .suggestion-input {
+        background: #fafafa;
+        border: hidden;
+        text-decoration: none;
+        height: 2.2rem;
+        outline: none;
+        background: none;
+        border-radius: 0 9px 9px 0;
+        padding-left: 0.8rem;
+        width: 23rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
        
+
+      .suggestion-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #f8f7f4;
+        border: none;
+        padding: 2px 4px;
+        border-radius: 20px;
+        margin-top: .6rem;
+        margin-top: 3rem;
+        background: #e9e5dc; 
+      }
+  
+      .suggestion-form-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      
 
        
   }
@@ -209,8 +290,6 @@ code {
     color: rgba(242, 242, 242, 0.7);
     color: black;
 
-
-   
   }
 
   .btn-cover {
@@ -241,16 +320,6 @@ code {
  }
 
 
-  .right-header {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    /* height: 22vh; this works*/
-    height: 22vh;
-    margin: 3vh;
-    text-align: center;
-  }
-
 
 
   .pause-btn {
@@ -262,19 +331,7 @@ code {
 
   
 
-      .suggestion-input {
-        background: #fafafa;
-        border: hidden;
-        text-decoration: none;
-        height: 2.2rem;
-        outline: none;
-        background: none;
-        border-radius: 0 9px 9px 0;
-        padding-left: 0.8rem;
-        width: 23rem;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      }
+     
       
       input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -287,26 +344,7 @@ input:-webkit-autofill:active {
 
 
      
-    .suggestion-form {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      border: 1px solid #f8f7f4;
-      border: none;
-      padding: 2px 4px;
-      border-radius: 20px;
-      margin-top: .6rem;
-      margin-top: 3rem;
-      background: #e9e5dc; 
-    }
-
-    .suggestion-form-content {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-    
+  
 
     .submit {
       border: none;
