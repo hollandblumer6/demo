@@ -361,11 +361,14 @@ input:-webkit-autofill:active {
 
 @font-face {
   font-family: "hippie-mojo";
+
   src: url("./assets/fonts/hippie-mojo/hippie-mojo.woff2") format("woff2"),
     /* Super Modern Browsers */
-      url("./assets/fonts/hippie-mojo/hippie-mojo.woff") format("woff");
+      url("./assets/fonts/hippie-mojo/hippie-mojo.woff") format("woff"),
+       url("./assets/fonts/hippie-mojo/hippie-mojo.svg")
+      format("svg"); 
   font-weight: 400;
-  font-style: normal;
+
   font-style: normal;
 }
 
@@ -376,7 +379,7 @@ input:-webkit-autofill:active {
     /* Super Modern Browsers */
       url("./assets/fonts/itc-souvenir/itc-souvenir.woff") format("woff");
   font-weight: 400;
-  font-style: normal;
+
   font-style: normal;
 }
 
