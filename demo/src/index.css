@@ -117,20 +117,14 @@ code {
   
   .right {
     background: #BEB7AC;
-
     width: 50%;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-   
-
   }
 
- 
-  
-  
   #background-video {
     height: 100%; 
     width: 100%;
@@ -200,12 +194,9 @@ code {
         }
 
         .sign-up:hover {
-         
           background: none; 
           color: grey;
-      
-        
-         
+
       }
 
 
