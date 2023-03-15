@@ -7,14 +7,11 @@ import { Routes, Route } from "react-router-dom";
 function App() {
 
   return (
-    <main>
     <div className="App">
     <Routes>
-      <Route path="/" element={<App />}>
-      </Route>
+    <Route exact path="/" element={<Home/>} />
     </Routes>
     </div>
-    </main>
   );
 }
 
