@@ -52,7 +52,7 @@ function Home() {
           </button>
         )}
      
-        <video id="background-video" loop ref={videoRef}>
+        <video id="background-video" loop playsInline ref={videoRef} >
             <source src={Movie} type="video/mp4"></source>
         </video> </div>
 
