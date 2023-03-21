@@ -34,7 +34,7 @@ code {
     
     .right {
       background: #BEB7AC;
-    
+
       width: 100%;
       display: flex;
       flex-direction: row;
@@ -104,6 +104,7 @@ code {
           /* background: #e9e5dc; */
           background: none;
           padding: 0px 14px;
+          font-weight: 300;
       }
 
       .sign-up:hover {
@@ -177,8 +178,9 @@ code {
     background: rgb(194,193,190);
     background: rgb(201,198,195);
     background: #B8B4B1;
-    background: #BEB7AC;
     background: rgb(204,203,199);
+    background: #BEB7AC;
+    /* background-image: url('./assets/images/background.jpg'); */
     width: 50%;
     height: 100vh;
     display: flex;
@@ -188,56 +190,54 @@ code {
   }
 
   #background-video {
-    height: 100%; 
+    height: 85%; 
     width: 50%;
     position: absolute;
+    margin: 5.3rem 0;
  
   }
   
         .logo {
             /* margin-top: 200px; */
-            font-size: 250px;
+            font-size: 160pt;
             color: #A97A50;
-       
             font-family: 'hippie-mojo';
-    
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            margin-top: 4rem;
+           
         }
     
         .slogan {
           font-family: 'ITC Souvenir Std';
           font-style: normal;
           font-weight: 500;
-          font-size: 30px;
-          margin-bottom: 4rem;
+          font-size: 25px;
           color:#A7784f;
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: center;
+          margin-top: -.5rem;
         }
     
   
 
           .sign-up {
-
             display: flex;
             border: 1px solid #f8f7f4;
             border: none;
             padding: 2px 4px;
             border-radius: 20px;
-            margin-top: .6rem;
-            margin-top: 3rem;
+            margin-top: 5rem;
             /* background: #e9e5dc;  */
             height: 2.7rem;
             width: 15rem;
             color: #B7B1A7;
-         
             font-family: 'Helvetica Neue';
-            font-size: 22px;
+            font-size: 21px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -245,6 +245,7 @@ code {
             /* background: #e9e5dc; */
             background: none;
             padding: 0px 14px;
+            font-weight: 300;
         }
 
         .sign-up:hover {
@@ -278,7 +279,7 @@ code {
         padding: 2px 4px;
         border-radius: 20px;
         margin-top: .6rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
         background: #e9e5dc; 
       }
   

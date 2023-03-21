@@ -32,7 +32,7 @@ function Home() {
         { showForm? (<div><Form /></div>): (<div>  
         <button class="sign-up"     onClick={() => {
           setShowForm(true);
-        }}>    Sign up for beta here
+        }}>    sign up for beta
         
         </button>
         </div>)}
