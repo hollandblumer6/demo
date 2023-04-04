@@ -164,7 +164,7 @@ function Home() {
         <div className="title"> About Divot </div>
         <div className="content">
           <div className="about-text">
-            Divot is on a mission to revolutionize the way brands and consumers
+            Divot aims to revolutionize the way brands and consumers
             communicate. Our goal is to cultivate a relationship between brands
             and consumers that benefits not only both parties but the planet as
             a whole. To achieve this, the platform highlights the sustainable
