@@ -93,7 +93,7 @@ code {
     font-weight: 300;
     height: 1.7rem;
     margin-top: 2rem;
-    margin-bottom: 7rem;
+
     width: 9.5rem;
   }
 
@@ -128,7 +128,6 @@ code {
     border-radius: 20px;
     margin-top: 2rem;
     background: #e9e5dc;
-    margin-bottom: 7rem;
   }
 
   .suggestion-form-content {
@@ -140,13 +139,12 @@ code {
   .icons {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: flex-end;
     color: #b7b1a7;
     font-family: "Helvetica Neue";
-
     margin-right: 0.2rem;
+    height: 1.5rem;
   }
 
   .icon {
@@ -183,18 +181,6 @@ code {
     width: 100%;
     margin-top: 20px;
     margin-left: -2rem;
-  }
-  .suggestion-form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #f8f7f4;
-    border: none;
-    padding: 2px 4px;
-    border-radius: 20px;
-    margin-top: 5rem;
-    background: #e9e5dc;
   }
 
   .suggestion-form-content {
@@ -294,10 +280,12 @@ code {
     width: 100%;
     align-items: flex-start;
     justify-content: space-between;
-    height: 10rem;
+    height: 5rem;
+
+    margin-top: 0.3rem;
   }
   .left-footer {
-    height: 10rem;
+    height: 5rem;
   }
 
   .sign-up-container {
@@ -312,11 +300,16 @@ code {
     color: #b7b1a7;
     background: none;
     font-size: 13px;
-    margin-top: 0.2rem;
   }
 
   .menu {
     margin-left: 0.2rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 1.5rem;
   }
 }
 
