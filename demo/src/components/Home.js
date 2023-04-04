@@ -16,7 +16,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import logo from "../logo.svg";
-import poster from "../assets/images/poster.png";
+import poster from "../assets/images/poster5.jpeg";
 import yinyang from "../assets/images/yinyang.png";
 import profile from "../assets/images/profile3.jpg";
 import Movie from "../assets/videos/promo.mp4";
@@ -103,7 +103,8 @@ function Home() {
             <div class="logo"> Divot </div>
 
             <div class="slogan"> Sustainability, Simplified</div>
-            {showForm ? (
+            <Form />
+            {/*  {showForm ? (
               <div>
                 <Form />
               </div>
@@ -116,10 +117,10 @@ function Home() {
                   }}
                 >
                   {" "}
-                  Sign up for beta
+                  Sign up
                 </button>
               </div>
-            )}
+            )} */}
           </div>
           <div class="left-footer"></div>
         </div>
