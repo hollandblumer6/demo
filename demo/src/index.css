@@ -290,7 +290,7 @@ code {
   }
 
   .sign-up-container {
-    height: 30rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,15 +301,21 @@ code {
     color: #b7b1a7;
     background: none;
     font-size: 13px;
+    width: 4.3rem;
+  }
+  .menu > button:nth-child(2) {
+    margin-left: -15px;
   }
 
   .menu {
-    width: 6rem;
+    width: 7rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 1.5rem;
+    background: orange;
+    margin-left: -2px;
   }
 }
 

@@ -33,10 +33,6 @@ function Form() {
               value={suggestion}
               onChange={(e) => setSuggestion(e.target.value)}
             />
-            <div
-              class="g-recaptcha"
-              data-sitekey="6Leuvf8kAAAAAKBs7ciNX-JN0I7ug6JAQryW7gPw"
-            ></div>
 
             {suggestion != "" ? (
               <button type="submit" className="create-suggestion-button">

@@ -180,7 +180,7 @@ function Home() {
         <FontAwesomeIcon icon={faEnvelope} size="3x" className="" />
         Contact Divot
         <form
-          action="https://formsubmit.co/lujuhaxe@mailgolem.com"
+          action="https://formsubmit.co/hello@joindivot.com"
           method="POST"
           className="contact-form"
         >
