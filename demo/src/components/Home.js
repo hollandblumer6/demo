@@ -53,13 +53,11 @@ function Home() {
           <div class="nav">
             <div class="menu">
               <button onClick={() => scrollToSection(about)} class="contact">
-                {" "}
                 About
-              </button>{" "}
+              </button>
               <button onClick={() => scrollToSection(contact)} class="contact">
-                {" "}
                 Contact
-              </button>{" "}
+              </button>
             </div>
             <div className="icons">
               {" "}
@@ -100,27 +98,29 @@ function Home() {
               </a>
             </div>
           </div>
+          <div class="sign-up-container">
+            <div class="logo"> Divot </div>
 
-          <div class="logo"> Divot </div>
-
-          <div class="slogan"> Sustainability, Simplified</div>
-          {showForm ? (
-            <div>
-              <Form />
-            </div>
-          ) : (
-            <div>
-              <button
-                class="sign-up"
-                onClick={() => {
-                  setShowForm(true);
-                }}
-              >
-                {" "}
-                Sign up for beta
-              </button>
-            </div>
-          )}
+            <div class="slogan"> Sustainability, Simplified</div>
+            {showForm ? (
+              <div>
+                <Form />
+              </div>
+            ) : (
+              <div>
+                <button
+                  class="sign-up"
+                  onClick={() => {
+                    setShowForm(true);
+                  }}
+                >
+                  {" "}
+                  Sign up for beta
+                </button>
+              </div>
+            )}
+          </div>
+          <div class="left-footer"></div>
         </div>
 
         <div class="right">
@@ -148,7 +148,7 @@ function Home() {
               <FontAwesomeIcon icon={faPlay} size="10x" className="pause-btn" />
             </button>
           )}
-          <video id="background-video" loop playsInline ref={videoRef}>
+          <video id="background-video" loop playsinline ref={videoRef}>
             <source src={Movie} type="video/mp4"></source>
           </video>
         </div>
@@ -203,6 +203,10 @@ function Home() {
             Send
           </button>
         </form>
+        <div className="rights-reserved">
+          {" "}
+          © Holland Blumer. All Rights Reserved.{" "}
+        </div>
       </div>
     </div>
   );

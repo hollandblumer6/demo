@@ -49,7 +49,6 @@ code {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
   }
 
   .slogan {
@@ -162,7 +161,6 @@ code {
     height: 2rem;
     margin-left: 1rem;
     margin-top: 0.2rem;
-
     width: 6rem;
     color: rgb(76, 68, 58);
     color: white;
@@ -171,6 +169,7 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     font-family: "Helvetica Neue";
     font-size: 14pt;
     padding: 2rem;
@@ -179,7 +178,12 @@ code {
     color: #403122;
     height: 21rem;
   }
-
+  .rights-reserved {
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -2rem;
+  }
   .suggestion-form {
     display: flex;
     flex-direction: row;
@@ -189,7 +193,6 @@ code {
     border: none;
     padding: 2px 4px;
     border-radius: 20px;
-    margin-top: 0.6rem;
     margin-top: 5rem;
     background: #e9e5dc;
   }
@@ -211,6 +214,7 @@ code {
     font-size: 23px;
     color: rgb(162, 122, 85);
   }
+
   .content {
     display: flex;
     flex-direction: row;
@@ -222,10 +226,8 @@ code {
   .title {
     font-family: "itc-souvenir";
     font-size: 20pt;
-
     /* font-size: 35pt; this looked pretty initial version */
     font-size: 32pt;
-    color: #aa7950;
     color: white;
     white-space: nowrap;
     margin-right: 2rem;
@@ -251,13 +253,15 @@ code {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-    width: 25rem;
+    width: 15rem;
+    font-size: 13px;
   }
   .contact-input:nth-child(3) {
     height: 7rem;
     margin-top: 0.5rem;
-    width: 24.5rem;
+    width: 14.5rem;
     padding-left: 0.3rem;
+    font-size: 13px;
   }
 
   textarea {
@@ -265,7 +269,7 @@ code {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .submit-form-button {
@@ -288,16 +292,29 @@ code {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    margin-top: 0.2rem;
+    height: 10rem;
+  }
+  .left-footer {
+    height: 10rem;
+  }
+
+  .sign-up-container {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .menu > button {
     font-family: "Helvetica Neue";
     color: #b7b1a7;
     background: none;
     font-size: 13px;
+    margin-top: 0.2rem;
   }
+
   .menu {
     margin-left: 0.2rem;
   }
@@ -354,6 +371,7 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     font-family: "Helvetica Neue";
     font-size: 14pt;
     padding: 2rem;
@@ -361,6 +379,13 @@ code {
     color: rgb(162, 122, 85);
     color: #403122;
     height: 21rem;
+  }
+
+  .rights-reserved {
+    text-align: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-left: -2rem;
   }
 
   .title {
@@ -483,7 +508,8 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
+
     /* justify-content: center; */
     /* border-right: 2px solid #eeeeee; */
     /* border-image: url(./assets/images/Background3.png) 200 round; */
@@ -508,8 +534,20 @@ code {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    height: 10rem;
+  }
+  .left-footer {
+    height: 5rem;
+  }
+
+  .sign-up-container {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu > button {
@@ -558,7 +596,6 @@ code {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 8rem;
   }
 
   .slogan {
@@ -743,7 +780,13 @@ code {
     background: #e8dbc5;
     color: rgb(162, 122, 85);
     color: #403122;
-    height: 21rem;
+  }
+
+  .rights-reserved {
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: -2rem;
   }
 
   .title {
@@ -782,13 +825,14 @@ code {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
+    font-size: 14px;
   }
   textarea {
     resize: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
-    font-size: 14px;
+
     padding-left: 0.3rem;
   }
 
@@ -875,7 +919,6 @@ code {
     font-size: 45pt;
     color: #aa7950;
     color: white;
-
     width: 750px;
     margin-right: 2rem;
     margin-top: 1.2rem;
@@ -893,7 +936,7 @@ code {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     /* justify-content: center; */
     /* border-right: 2px solid #eeeeee; */
     /* border-image: url(./assets/images/Background3.png) 200 round; */
@@ -902,7 +945,6 @@ code {
   .icons {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: flex-end;
     color: #b7b1a7;
@@ -914,12 +956,24 @@ code {
     margin-right: 0.5rem;
   }
 
+  .sign-up-container {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    height: 10rem;
+  }
+  .left-footer {
+    height: 10rem;
   }
 
   .menu > button {
@@ -973,7 +1027,6 @@ code {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 170px;
   }
 
   .slogan {
@@ -1000,7 +1053,7 @@ code {
     border: none;
     padding: 2px 4px;
     border-radius: 20px;
-    margin-top: 5rem;
+    margin-top: 100px;
     /* background: #e9e5dc;  */
     height: 2.7rem;
     height: 2.3rem;
@@ -1055,8 +1108,7 @@ code {
     border: none;
     padding: 2px 4px;
     border-radius: 20px;
-    margin-top: 0.6rem;
-    margin-top: 5rem;
+    margin-top: 100px;
     background: #f3eee2;
     background: #e9e5dc;
   }
