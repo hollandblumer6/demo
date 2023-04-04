@@ -65,8 +65,8 @@ code {
   }
 
   #background-video {
-    height: 70%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
     /* both height and width were 80% before */
     position: absolute;
     object-fit: cover;

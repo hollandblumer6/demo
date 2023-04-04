@@ -16,7 +16,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import logo from "../logo.svg";
-import poster from "../assets/images/poster5.jpeg";
+import poster from "../assets/images/poster1.png";
 import yinyang from "../assets/images/yinyang.png";
 import profile from "../assets/images/profile3.jpg";
 import Movie from "../assets/videos/promo.mp4";
