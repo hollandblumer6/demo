@@ -16,6 +16,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import logo from "../logo.svg";
+import poster from "../assets/images/poster.png";
 import yinyang from "../assets/images/yinyang.png";
 import profile from "../assets/images/profile3.jpg";
 import Movie from "../assets/videos/promo.mp4";
@@ -148,7 +149,13 @@ function Home() {
               <FontAwesomeIcon icon={faPlay} size="10x" className="pause-btn" />
             </button>
           )}
-          <video id="background-video" loop playsinline ref={videoRef}>
+          <video
+            id="background-video"
+            loop
+            playsinline
+            ref={videoRef}
+            poster={poster}
+          >
             <source src={Movie} type="video/mp4"></source>
           </video>
         </div>
@@ -171,7 +178,7 @@ function Home() {
 
       <div ref={contact} className="bottom2">
         <FontAwesomeIcon icon={faEnvelope} size="3x" className="" />
-        Contact Us
+        Contact Divot
         <form
           action="https://formsubmit.co/lujuhaxe@mailgolem.com"
           method="POST"
