@@ -290,7 +290,7 @@ code {
   }
 
   .sign-up-container {
-    height: 20rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
     align-items: center;
