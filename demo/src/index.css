@@ -1020,7 +1020,7 @@ code {
   .logo {
     /* margin-top: 200px; */
     /* font-size: 200pt;  looked pretty initially */
-    font-size: 200pt;
+    font-size: 180pt;
     color: #a97a50;
     font-family: "hippie-mojo";
     display: flex;
@@ -1035,6 +1035,7 @@ code {
     font-weight: 500;
     font-size: 30px;
     font-size: 28px;
+    font-size: 27px;
     color: #a7784f;
     color: #aa7950;
     color: #a7784f;
