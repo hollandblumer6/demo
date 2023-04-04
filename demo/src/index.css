@@ -31,7 +31,7 @@ code {
   }
 
   .right {
-    background-image: url("./assets/images/Background4.png");
+    background-image: url("./assets/images/Background10.png");
     background-size: 200% 100%;
     width: 100%;
     height: 100vh;
@@ -93,7 +93,7 @@ code {
   }
 
   .sign-up:hover {
-    background: none;
+    background: #d9d7d2;
     color: grey;
   }
 
@@ -265,11 +265,11 @@ code {
     width: 100%;
     align-items: flex-start;
     justify-content: space-between;
-    height: 8rem;
+    height: 7rem;
     margin-top: 0.3rem;
   }
   .left-footer {
-    height: 8rem;
+    height: 7rem;
   }
 
   .sign-up-container {
@@ -288,6 +288,9 @@ code {
   }
   .menu > button:nth-child(2) {
     margin-left: -15px;
+  }
+  .menu > button:hover {
+    color: #403122;
   }
 
   .menu {
@@ -332,21 +335,40 @@ code {
     justify-content: flex-end;
     color: #b7b1a7;
     font-family: "Helvetica Neue";
-    margin-top: 0.5rem;
+    margin-right: 0.2rem;
+    height: 1.5rem;
   }
 
   .icon {
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
   .menu > button {
     font-family: "Helvetica Neue";
     color: #b7b1a7;
     background: none;
-    font-size: 17px;
+    font-size: 15px;
   }
+
+  .menu > button:hover {
+    color: #403122;
+  }
+
+  .menu > button:nth-child(2) {
+    margin-left: -15px;
+  }
+
   .menu {
     margin-left: 0.2rem;
+    height: 1.5rem;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 7.2rem;
   }
   .bottom2 {
     display: flex;
@@ -499,16 +521,19 @@ code {
   .icons {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: flex-end;
     color: #b7b1a7;
     font-family: "Helvetica Neue";
-    margin-top: 0.5rem;
+
+    margin-right: 0.2rem;
+    height: 1.5rem;
   }
 
   .icon {
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
+    height: 1.2rem;
+    width: 1.2rem;
   }
 
   .nav {
@@ -518,7 +543,9 @@ code {
     align-items: flex-start;
     justify-content: space-between;
     height: 10rem;
+    margin-top: 0.5rem;
   }
+
   .left-footer {
     height: 5rem;
   }
@@ -531,16 +558,6 @@ code {
     justify-content: center;
   }
 
-  .menu > button {
-    font-family: "Helvetica Neue";
-    color: #b7b1a7;
-    background: none;
-    font-size: 17px;
-  }
-  .menu {
-    margin-left: 0.2rem;
-  }
-
   .right {
     background: rgb(196, 195, 191);
     background: rgb(194, 193, 190);
@@ -551,8 +568,8 @@ code {
     background: #b6b3ae;
     background: #e9e5dc;
     background: #b7b1a7;
-    background-image: url("./assets/images/Background7.png");
-    /* background-size: 200% 100%; */
+    background-image: url("./assets/images/Background-6.png");
+    background-size: 200% 100%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -720,21 +737,40 @@ code {
     justify-content: flex-end;
     color: #b7b1a7;
     font-family: "Helvetica Neue";
-    margin-top: 0.5rem;
+
+    margin-right: 0.2rem;
+    height: 1.5rem;
   }
 
   .icon {
     margin-right: 0.5rem;
+    height: 1.7rem;
+    width: 1.7rem;
   }
 
   .menu > button {
     font-family: "Helvetica Neue";
     color: #b7b1a7;
     background: none;
-    font-size: 17px;
+    font-size: 16px;
   }
+
+  .menu > button:hover {
+    color: #403122;
+  }
+
   .menu {
-    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 7.7rem;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+  }
+
+  .menu > button:nth-child(2) {
+    margin-left: -25px;
   }
 
   .bottom2 {
@@ -772,6 +808,7 @@ code {
     width: 100%;
     margin-top: 30px;
     margin-left: -2rem;
+    margin-bottom: -1.2rem;
   }
 
   .title {
@@ -927,20 +964,6 @@ code {
     /* border-image: url(./assets/images/Background3.png) 200 round; */
   }
 
-  .icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    color: #b7b1a7;
-    font-family: "Helvetica Neue";
-    margin-top: 0.5rem;
-  }
-
-  .icon {
-    margin-right: 0.5rem;
-  }
-
   .sign-up-container {
     height: 40rem;
     display: flex;
@@ -956,19 +979,10 @@ code {
     align-items: flex-start;
     justify-content: space-between;
     height: 10rem;
+    margin-top: 0.6rem;
   }
   .left-footer {
     height: 10rem;
-  }
-
-  .menu > button {
-    font-family: "Helvetica Neue";
-    color: #b7b1a7;
-    background: none;
-    font-size: 17px;
-  }
-  .menu {
-    margin-left: 0.2rem;
   }
 
   .right {
@@ -983,8 +997,8 @@ code {
     background: #e9e5dc;
     background: #b7b1a7;
 
-    background-image: url("./assets/images/Background7.png");
-    background-size: 200% 100%;
+    background-image: url("./assets/images/Background10.png");
+    background-size: cover;
     width: 50%;
     height: 100vh;
     display: flex;
@@ -1003,7 +1017,7 @@ code {
   .logo {
     /* margin-top: 200px; */
     /* font-size: 200pt;  looked pretty initially */
-    font-size: 220pt;
+    font-size: 200pt;
     color: #a97a50;
     font-family: "hippie-mojo";
     display: flex;
@@ -1016,10 +1030,11 @@ code {
     font-family: "itc-souvenir";
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
     font-size: 30px;
+    font-size: 28px;
     color: #a7784f;
     color: #aa7950;
+    color: #a7784f;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1076,7 +1091,7 @@ code {
     background: none;
     border-radius: 0 9px 9px 0;
     padding-left: 0.8rem;
-    width: 20rem;
+    width: 18rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
       sans-serif;
