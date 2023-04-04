@@ -573,6 +573,7 @@ code {
     font-size: 240pt;
     color: #aa7950;
     color: #aa7950;
+    color: #a97a50;
     font-family: "hippie-mojo";
     display: flex;
     flex-direction: row;
@@ -1003,9 +1004,7 @@ code {
     /* margin-top: 200px; */
     /* font-size: 200pt;  looked pretty initially */
     font-size: 220pt;
-    color: #aa7950;
     color: #a97a50;
-    color: #aa7950;
     font-family: "hippie-mojo";
     display: flex;
     flex-direction: row;

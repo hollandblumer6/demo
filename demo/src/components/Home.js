@@ -151,7 +151,6 @@ function Home() {
           )}
           <video
             id="background-video"
-            loop
             playsinline
             ref={videoRef}
             poster={poster}
