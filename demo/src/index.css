@@ -589,6 +589,7 @@ code {
 
   .logo {
     font-size: 260pt;
+    font-size: 240pt;
     color: #aa7950;
     color: #aa7950;
     font-family: "hippie-mojo";
@@ -604,6 +605,7 @@ code {
     font-weight: 500;
     font-size: 25px;
     font-size: 40px;
+    font-size: 37px;
     color: #a7784f;
     color: #aa7950;
     display: flex;
@@ -628,10 +630,11 @@ code {
     height: 2.3rem;
     color: grey;
     width: 7rem;
-    width: 10rem;
+    width: 12rem;
     font-size: 21px;
     font-size: 26px;
     font-size: 17px;
+    font-size: 22px;
     display: flex;
     background: #ece5d4;
     background: #e9e5dc;
