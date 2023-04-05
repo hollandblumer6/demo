@@ -29,7 +29,7 @@ function Form() {
               className="suggestion-input"
               id="email-address"
               name="email"
-              placeholder="Enter email to sign up"
+              placeholder="Enter email for app launch"
               value={suggestion}
               onChange={(e) => setSuggestion(e.target.value)}
             />
